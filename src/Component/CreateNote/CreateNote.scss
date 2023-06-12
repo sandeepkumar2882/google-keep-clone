@@ -1,0 +1,15 @@
+.createNote {
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        width: 100%;
+        margin: 0 auto;
+
+        .expandTextArea {
+            height:300px;
+        }
+        
+    }
+}

@@ -1,0 +1,26 @@
+.cardsNote {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px;
+
+    .note {
+        width: 100%;
+        max-width: 300px;
+        margin: 20px;
+        padding: 10px;
+        background-color: #feefc3;
+        border-radius: 10px;
+        word-break: break-all;
+
+        .noteTitle {
+            border-bottom: 1px solid #757677 ;
+        }
+
+        .noteContent {
+            border-bottom: 1px solid #757677;
+            color: #757677;
+            padding-bottom: 20px;
+        }
+    }
+  }

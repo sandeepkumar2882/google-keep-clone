@@ -1,0 +1,45 @@
+.modal {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    inset: 0;
+
+    .modal-container {
+        background-color: #feefc3;
+        max-height: calc(100vh - 60px);
+        min-height: 400px;
+        overflow: auto;
+        word-break: break-all;
+        padding: 20px;   
+
+        .editModalInput {
+            padding: 10px;
+
+            input {
+                margin-bottom: 10px;
+            }
+
+            textarea {
+                min-height: 200px;
+            }
+        }
+        
+        .closeModal {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .editNote {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+        }
+    }
+}
